@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: rollout-order
 spec:
-  replicas: 5
+  replicas: 7
   strategy:
     canary:
       trafficRouting:
